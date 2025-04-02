@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer-analysis",
+  "version": "1.0.0",
+  "description": "Puppeteer分析与示例代码",
+  "main": "index.js",
+  "scripts": {
+    "basic": "node examples/basic-example.js",
+    "scraper": "node examples/web-scraper-example.js",
+    "test": "node examples/ui-testing-example.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "testing",
+    "scraping",
+    "web-scraping",
+    "headless-chrome"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^19.7.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raybreslin1/puppeteer-analysis.git"
+  }
+}
